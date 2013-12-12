@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">キーボタン機能拡張</string>
+    <string name="app_desc">"キーボタンの機能を拡張します"</string>
+    <string name="app_about_key">AppAboutKey</string>
+    <string name="app_about_title">About</string>
+    <string name="app_about_summary">このアプリについて</string>
+    
+    <string name="settings">設定</string>
+    <string name="after_reboot_message">設定の変更は再起動後に反映されます</string>
+    
+    <string name="settings_keybuttonview_key">SettinsKeyButtonViewKey</string>
+    <string name="settings_keybuttonview_title">キーボタン</string>
+    <string name="settings_keybuttonview_summary">キーボタン 設定</string>
+    
+    <string name="settings_keybuttonview_back_key">SettinsKeyButtonViewBackKey</string>
+    <string name="settings_keybuttonview_back_title">戻るボタン</string>
+    <string name="settings_keybuttonview_back_summary">戻るボタン 長押し 設定</string>
+    
+    <string name="settings_hook_keybuttonview_back_key">HookKeyButtonViewBackkey</string>
+    <string name="settings_hook_keybuttonview_back_title">戻るボタン 長押し</string>
+    <string name="settings_hook_keybuttonview_back_summary">戻るボタン 長押しで最前面のアプリを終了する</string>
+    
+    <string name="settings_hook_keybuttonview_back_wait_key">HookKeyButtonViewBackWaitkey</string>
+    <string name="settings_hook_keybuttonview_back_wait_title">アプリを終了する待ち時間</string>
+    <string name="settings_hook_keybuttonview_back_wait_summary">戻るボタン 長押し %1$s%2$s後アプリを終了する</string>
+    
+    <string name="app_killed_message">アプリケーションを終了しました</string>
+    
+    <string name="settings_keybuttonview_home_key">SettingsKeyButtonViewHomeKey</string>
+    <string name="settings_keybuttonview_home_title">ホームボタン</string>
+    <string name="settings_keybuttonview_home_summary">ホームボタン 長押し 設定</string>
+    
+    <string name="settings_hook_keybuttonview_home_key">HookKeyButtonViewHomekey</string>
+    <string name="settings_hook_keybuttonview_home_title">ホームボタン 長押し</string>
+    <string name="settings_hook_keybuttonview_home_summary">ホームボタン 長押しでGoogle Nowを無効にする</string>
+
+</resources>

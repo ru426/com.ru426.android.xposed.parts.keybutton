@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <plurals name="settings_hook_keybuttonview_back_wait_unit">
+        <item quantity="zero">" second"</item>
+        <item quantity="one">" second"</item>
+        <item quantity="other">" seconds"</item>
+    </plurals>  
+</resources>  

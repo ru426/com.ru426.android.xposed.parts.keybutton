@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.ru426.android.xposed.parts.keybutton"
+    xmlns:SeekBarPreferece="http://schemas.android.com/apk/res/com.ru426.android.xposed.parts.keybutton" >
+
+    <PreferenceCategory
+        android:key="@string/settings_keybuttonview_back_key"
+        android:summary="@string/settings_keybuttonview_back_summary"
+        android:title="@string/settings_keybuttonview_back_title" >
+        <CheckBoxPreference
+            android:key="@string/settings_hook_keybuttonview_back_key"
+            android:summary="@string/settings_hook_keybuttonview_back_summary"
+            android:title="@string/settings_hook_keybuttonview_back_title" />
+
+        <com.ru426.android.xposed.parts.keybutton.view.SeekBarPreference
+            SeekBarPreferece:min="0"
+            SeekBarPreferece:unitsLeft=""
+            SeekBarPreferece:unitsRight=""
+            android:defaultValue="15"
+            android:key="@string/settings_hook_keybuttonview_back_wait_key"
+            android:max="50"
+            android:summary="@string/settings_hook_keybuttonview_back_wait_summary"
+            android:title="@string/settings_hook_keybuttonview_back_wait_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/settings_keybuttonview_home_key"
+        android:summary="@string/settings_keybuttonview_home_summary"
+        android:title="@string/settings_keybuttonview_home_title" >
+        <CheckBoxPreference
+            android:key="@string/settings_hook_keybuttonview_home_key"
+            android:summary="@string/settings_hook_keybuttonview_home_summary"
+            android:title="@string/settings_hook_keybuttonview_home_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

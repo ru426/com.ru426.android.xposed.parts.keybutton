@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KeyButton Extender</string>
+    <string name="app_desc">"Add function to KeyButton"</string>
+    <string name="app_about_key">AppAboutKey</string>
+    <string name="app_about_title">About</string>
+    <string name="app_about_summary">About this App</string>
+    
+    <string name="settings">Settings</string>
+    <string name="after_reboot_message">Settings will change after reboot</string>
+    
+    <string name="settings_keybuttonview_key">SettingsKeyButtonViewKey</string>
+    <string name="settings_keybuttonview_title">KeyButton</string>
+    <string name="settings_keybuttonview_summary">KeyButton Settings</string>
+    
+    <string name="settings_keybuttonview_back_key">SettingsKeyButtonViewBackKey</string>
+    <string name="settings_keybuttonview_back_title">KeyButton Back</string>
+    <string name="settings_keybuttonview_back_summary">KeyButton Back Settings</string>
+    
+    <string name="settings_hook_keybuttonview_back_key">HookKeyButtonViewBackkey</string>
+    <string name="settings_hook_keybuttonview_back_title">BackKey long press</string>
+    <string name="settings_hook_keybuttonview_back_summary">Top Application kill when BackKey long pressed</string>
+    
+    <string name="settings_hook_keybuttonview_back_wait_key">HookKeyButtonViewBackWaitkey</string>
+    <string name="settings_hook_keybuttonview_back_wait_title">BackKey long press wait time</string>
+    <string name="settings_hook_keybuttonview_back_wait_summary">Waiting time(%1$s%2$s) before Application kill when BackKey long pressed</string>
+    
+    <string name="app_killed_message">Application killed</string>
+    
+    <string name="settings_keybuttonview_home_key">SettingsKeyButtonViewHomeKey</string>
+    <string name="settings_keybuttonview_home_title">KeyButton Home</string>
+    <string name="settings_keybuttonview_home_summary">KeyButton Home Settings</string>
+    
+    <string name="settings_hook_keybuttonview_home_key">HookKeyButtonViewHomekey</string>
+    <string name="settings_hook_keybuttonview_home_title">HomeKey long press</string>
+    <string name="settings_hook_keybuttonview_home_summary">Disable Google Now when HomeKey long pressed</string>
+
+</resources>
